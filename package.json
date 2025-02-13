@@ -10,10 +10,17 @@
     "type": "git",
     "url": "git+https://github.com/PranavMarch20/basic-react.git"
   },
+  "keywords": [
+    "React",
+    "Parcel"
+  ],
   "author": "Pranav Kumar Singh",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/PranavMarch20/basic-react/issues"
   },
-  "homepage": "https://github.com/PranavMarch20/basic-react#readme"
+  "homepage": "https://github.com/PranavMarch20/basic-react#readme",
+  "devDependencies": {
+    "parcel": "^2.13.3"
+  }
 }
