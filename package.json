@@ -1,0 +1,19 @@
+{
+  "name": "basic-react",
+  "version": "1.0.0",
+  "description": "Learning React without scaffolding, using npm => Parcel(bundeler)",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PranavMarch20/basic-react.git"
+  },
+  "author": "Pranav Kumar Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PranavMarch20/basic-react/issues"
+  },
+  "homepage": "https://github.com/PranavMarch20/basic-react#readme"
+}
