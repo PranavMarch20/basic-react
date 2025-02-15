@@ -9,15 +9,18 @@
     </div>
 </div>; */
 
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 // React.createElement() is used to create a React element(object) which is then converted to html and rendered to the DOM by ReactDOM.render()
 const parent = React.createElement("div", { id: "parent" }, [
   React.createElement("div", { id: "child" }, [
     React.createElement("h1", {}, "Pranav from react"),
-    React.createElement("h2", {}, "learning react"),
+    React.createElement("h2", {}, "by Pranav Kumar Singh"),
   ]),
   React.createElement("div", { id: "child2" }, [
-    React.createElement("h1", {}, "Pranav from react"),
-    React.createElement("h2", {}, "learning react"),
+    React.createElement("h1", {}, "This is Pranav Learning React 🚀"),
+    React.createElement("h2", {}, "Trying HMR"),
   ]),
 ]);
 
@@ -31,7 +34,7 @@ const parent = React.createElement("div", { id: "parent" }, [
 
 // console.log(heading);   // JS object
 
-const root = ReactDOM.createRoot(document.getElementById("root"));  //craetes a root object where the react element will be rendered
+const root = ReactDOM.createRoot(document.getElementById("root"));  //creates a root object where the react element will be rendered
 
 root.render(parent); // converts the heading object to HTML and renders it to the DOM
 

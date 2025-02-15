@@ -9,3 +9,21 @@ package-lock.json keeps track of the exact and updated versions of all dependenc
 node modules contains the actual data/code of all the dependencies and transitive dependencies
 
 .gitignore contains names of files we don't need to push to git, whatever we can regenerate we don't put that on git, because we can regenerate that on the server
+
+# Parcel
+- dev build
+- local server
+- HMR = Hot Module Replacement
+- file watching algorithm - written in c++
+- caching - faster rebuilds (.parcel-cache)
+- image optimization
+- minification
+- compresstion
+- consistent hashing
+- code splitting
+- differential bundeling = makes different builds for different browsers (older/new)
+- diagnostics
+- error handling
+- Https (ssl)
+- tree shaking - remove unused code
+- different dev and prod builds

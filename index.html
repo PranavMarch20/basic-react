@@ -6,21 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <title>React</title>
+    <title>Learning React</title>
 </head>
 
 <body>
-    <p>hello above root</p>  <!-- this WON'T be replaced by the react elements since it is outside root-->
+    <!-- <p>hello above root</p>  this WON'T be replaced by the react elements since it is outside root -->
     <div id="root">
         <h3>Not Rendered</h3>  <!-- this will get replaced by the react elements -->
     </div>
-    <p>hello below root</p>  <!-- since we can use react even in just small part without disturbing the rest, that is why react is a library -->
+    <!-- <p>hello below root</p>  since we can use react even in just small part without disturbing the rest, that is why react is a library -->
 
-    <!-- // React & ReactDOM cdn(content delivery network) links -->
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 
-    <script src="./App.js"></script>
+
+
+    <!-- // React & ReactDOM cdn(content delivery network) links | we installed react in node_modules using npm, no need of cdn anymore -->  
+    <!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> -->
+
+    <script type="module" src="./App.js"></script>
 </body>
 
 </html>
