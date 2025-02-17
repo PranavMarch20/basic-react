@@ -1,3 +1,4 @@
-/node_modules
+# things we can regenerate on server, we don't need to keep in git
+node_modules
 dist
 .parcel-cache
